@@ -68,7 +68,7 @@ class Imageshop extends Plugin
      *
      * @var string
      */
-    public string $schemaVersion = '0.0.2';
+    public $schemaVersion = '0.0.2';
 
     // Public Methods
     // =========================================================================
