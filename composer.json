@@ -2,7 +2,7 @@
     "name": "vangenplotz/imageshop",
     "description": "Integrate with an Imageshop account and use Imageshop resources in Craft",
     "type": "craft-plugin",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "keywords": [
         "craft",
         "cms",
@@ -22,8 +22,8 @@
         }
     ],
     "require": {
-        "php": "^8.0.2|^9.0",
-        "craftcms/cms": "^3.0.0|^4.0.0"
+        "craftcms/cms": "^3.0.0|^4.0.0|^5.0.0",
+        "php": "^8.0|^8.1|^8.2|^8.3|^8.4"
     },
     "autoload": {
         "psr-4": {
@@ -41,5 +41,11 @@
             "soap": "vangenplotz\\imageshop\\services\\Soap"
         },
         "class": "vangenplotz\\imageshop\\Imageshop"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
     }
 }

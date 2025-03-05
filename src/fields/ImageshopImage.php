@@ -389,7 +389,7 @@ class ImageshopImage extends Field implements PreviewableFieldInterface
     }
 
 
-    public function getTableAttributeHtml(mixed $value, ElementInterface $element = null): string
+    public function getPreviewHtml(mixed $value, ElementInterface $element = null): string
     {
         /** @var ImageArrayModel|null $value */
         
